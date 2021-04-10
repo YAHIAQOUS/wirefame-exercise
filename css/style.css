@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0 50px 0 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -44,6 +45,7 @@ header nav ul li {
     display: inline-block;
     font-size: larger;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 #section1 img{
@@ -56,19 +58,28 @@ header nav ul li {
     justify-content: space-between;
 }
 
-#section2 div{
+
+#img1 {
     width: 30%;
-    display: inline-block;
-    margin-right: 25px;
+    float: left;
 }
 
-#section2 div img{
-    width: 100%;
+#img2{
+    width: 30%;
+    margin-inline: 5%;
 }
+
+#img3 {
+    width: 30%;
+    float: right;
+}
+
+
 
 
 #section3{
     padding-top: 30px;
+    height: 400px;
 }
 
 #div1{
@@ -84,19 +95,38 @@ header nav ul li {
 #div2{
     float: right;
     width: 50%;
+    height: 100%;
     padding-left: 10px;
 }
 
 #div2 h3{
-    font-size:xx-large ;
-    height: 20%;
+    font-size:large ;
+    height: 7.5%;
 }
 
 #div2 p{
+    overflow: scroll;
     font-size:larger;
-    height: 80%;
+    height: 75%;
+    text-align: justify;
+    font-size: medium;
 }
 
+#div2 div{
+    background-color: black;
+    width: 30%;
+    height: 10%;
+}
+
+#div2 div a{
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    /* display: block; */
+    padding-left: 15px;
+    vertical-align: middle;
+    line-height:40px;
+}
 
 footer{
     background-color: darkgrey;
